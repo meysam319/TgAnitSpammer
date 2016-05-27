@@ -282,23 +282,18 @@ function create_config( )
     "tv",
     "help_plug"
     },
-    sudo_users = {212990316},--Sudo users
+    sudo_users = {104890103},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[avast-Bot V7.5 - http://bit.ly/1SCRF1i
 ربات پیشرفته برپایه لوا
 
-اعضای تیم آواست:
-@arashnomiri
-@Oo_sArDaR_marginam_oO
-@redteam_01_01
-@Pukeram
-@iq_plus
-@negative_officiall
-@DrCyber1736
-
-کانال:
-@avast_Team
+ اعضا تیم  :
+ Meysam rahnama : @Mr_meysam1 :: Moyfier 
+ Alireza Mosavi : @alirezamoosavi77 :: Admin
+Sajjad javanmard : @Sajjad3107      :: Admin
+Mohammad Mostafavi : @sm2mr         :: Admin
+کانال:nadrim fln |:
 ]],
     help_text_realm = [[
 Realm Commands:
@@ -356,7 +351,7 @@ This command will send text to [group_id]
 end
 
 function on_our_id (id)
-  our_id = id
+  104890103 = id
 end
 
 function on_user_update (user, what)
